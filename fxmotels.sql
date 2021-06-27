@@ -13,7 +13,7 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Volcando estructura para tabla randstad.pluto_motels
-CREATE TABLE IF NOT EXISTS `pluto_motels` (
+CREATE TABLE IF NOT EXISTS `fx_motels` (
   `interiorId` longtext NOT NULL,
   `roomOwner` varchar(50) NOT NULL,
   `roomData` text NOT NULL,
