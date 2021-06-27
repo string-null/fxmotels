@@ -191,7 +191,7 @@ Citizen.CreateThread(function()
 
 							if doorUnlockable or roomRentable or raidText then
 								local displayText = not roomRentable and raidText and "Press ~INPUT_VEH_HEADLIGHT~ to " or "Press ~INPUT_DETONATE~ to "
-								displayText = displayText .. (doorUnlockable and (doorState == 1 and "kilidi aç." or "kilitle.") or roomRentable and (motelData["rentMode"] and "kirala." or "satın al.") or raidText and (not roomRentable and raidText or "") or "")
+								displayText = displayText .. (doorUnlockable and (doorState == 1 and "abrir la pueta." or "cerrar la puerta.") or roomRentable and (motelData["rentMode"] and "cerrar la puerta." or "satın al.") or raidText and (not roomRentable and raidText or "") or "")
 								HelpNotification(displayText)
 							end
 						end
