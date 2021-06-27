@@ -12,7 +12,7 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
--- Volcando estructura para tabla randstad.pluto_motels
+-- Volcando estructura para tabla fxserver.pluto_motels
 CREATE TABLE IF NOT EXISTS `fx_motels` (
   `interiorId` longtext NOT NULL,
   `roomOwner` varchar(50) NOT NULL,
@@ -22,8 +22,8 @@ CREATE TABLE IF NOT EXISTS `fx_motels` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- Volcando datos para la tabla randstad.pluto_motels: ~5 rows (aproximadamente)
-/*!40000 ALTER TABLE `pluto_motels` DISABLE KEYS */;
-/*!40000 ALTER TABLE `pluto_motels` ENABLE KEYS */;
+/*!40000 ALTER TABLE `fx_motels` DISABLE KEYS */;
+/*!40000 ALTER TABLE `fx_motels` ENABLE KEYS */;
 
 -- Volcando estructura para tabla randstad.user_keys
 CREATE TABLE IF NOT EXISTS `user_keys` (
